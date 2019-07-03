@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "383711814012",
+    "firebase_url": "https://fir-learningphoneauth.firebaseio.com",
+    "project_id": "fir-learningphoneauth",
+    "storage_bucket": "fir-learningphoneauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383711814012:android:fb3261f6b7947463",
+        "android_client_info": {
+          "package_name": "com.deepmodi.firebaselearningphoneauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383711814012-4qvgjpa19r04i8819q1k24u5937110f1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deepmodi.firebaselearningphoneauth",
+            "certificate_hash": "13336103e544bd31e3864992c361e4a486d3148d"
+          }
+        },
+        {
+          "client_id": "383711814012-avpen35kl7d7mttilq72em33gmpj9lt9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBITPwHL-qqs4KRGSkRy-iMXvPDUC1dbSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383711814012-avpen35kl7d7mttilq72em33gmpj9lt9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

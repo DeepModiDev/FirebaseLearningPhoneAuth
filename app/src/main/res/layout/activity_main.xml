@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <EditText
+      android:id="@+id/user_number_edit"
+      android:layout_centerHorizontal="true"
+      android:layout_margin="20dp"
+      android:hint="Enter Phone number"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <EditText
+      android:id="@+id/user_password_edit"
+      android:layout_margin="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Enter Password"
+      android:layout_below="@id/user_number_edit"
+      />
+
+  <CheckBox
+      android:id="@+id/ic_checkBox"
+      android:hint="Remember me"
+      android:textColorHint="#000"
+      android:layout_below="@id/user_password_edit"
+      android:layout_margin="10dp"
+      android:checked="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+
+  <Button
+      android:id="@+id/user_btn_sign_in"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_below="@id/ic_checkBox"
+      android:text="Sign In"
+      android:layout_marginTop="10dp"
+      />
+  <Button
+      android:id="@+id/user_btn_sign_up"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/user_btn_sign_in"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="10dp"
+      android:text="Sign up"
+      />
+
+</RelativeLayout>
